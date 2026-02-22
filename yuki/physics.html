@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Virtual Physics Lab</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <h1>Projectile Motion Simulator</h1>
+
+    <label>Initial Velocity (m/s)</label>
+    <input type="number" id="velocity" value="20">
+
+    <label>Angle (degrees)</label>
+    <input type="number" id="angle" value="45">
+
+    <button onclick="simulate()">Run Experiment</button>
+
+    <canvas id="graph"></canvas>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
